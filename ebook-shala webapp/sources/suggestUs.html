@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>ebook-shala | Request a book </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome.min.css">
+	<link rel="stylesheet" href="suggestUs.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="suggestUs.js"></script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </head>
+    <body>
+	    <div id="whole-page">	
+		    <div id="page-header">
+			<div id="drawer-menu">
+			    <i class="material-icons">menu</i>
+			</div>
+			<div id="site-logo">
+			    <a href="index.html">
+				ebook-shala
+				<span>BETA</span>
+			    </a>
+			    
+			</div>
+			<nav id="famous-fields" class="famous-fields" >
+			      <a href="content.jsp?field=Engineering&branch=none&course=none"> <i class="material-icons">build</i> Engineering</a>
+			    <a href="content.jsp?field=Medical&branch=none&course=none"> <i class="fa fa-stethoscope"></i> Medical</a>
+<!--			    <a><i class="fa fa-legal"></i> Law</a>
+			    <a><i class="fa fa-graduation-cap"></i> SAT & GRE</a>-->
+			
+			</nav>	
+
+			<div id="search-bar" >
+			      <div id="search-logo" class="search-logo" onclick="opensearch();">
+				  <i class="fa fa-search"></i>
+			      </div>
+			    <input id="search-field" class="search-field" name="name" placeholder="What are you searching for...?" type="search" onkeyup="callAjaxtoAccessCourseDetail();" />
+			</div>
+		    </div>	
+	<!--drawer.............................................................................................-->
+		<div class="drawer">
+		    <div id="drawer-header">
+			<i class="material-icons">book</i> ebook-shala
+		    </div>
+		    <div class="drawer-field">
+			<div class="field-header" id="f1">
+			    Engineering
+			</div>
+			<div class="drawer-branch" id="bf1">
+			     <ul >
+				 <li>
+				     <div class="branch-header" id="b11">Computer Science</div>
+				     <div class="drawer-course" id="cb11">
+					 <ul>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Algorithms">Algorithms</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Android">Android</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Artificial_Intelligence">Artificial Intelligence</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=C">C</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Cloud_Computing">Cloud Computing</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Computer_Organization_and_Architecture">Computer Organization and Architecture</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Data_Structures">Data Structures</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Database_Systems">Database Systems</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Fuzzy_Logic">Fuzzy Logic</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Java">JAVA</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=OOPS">OOPS</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Operating_Systems">Operating Systems</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Python">Python</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Software_Engineering">Software Engineering</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Computer_Science&course=Web_Design">Web Design</a></li>
+					 </ul>
+				     </div> 
+				 </li>
+				 <li>
+				     <div class="branch-header" id="b12">Electronics &amp; Communication</div>
+				     <div class="drawer-course" id="cb12">
+					 <ul>
+					     <li><a href="content.jsp?field=Engineering&branch=Electronics_Communications&course=Communication_Systems">Communication Systems</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Electronics_Communications&course=Digital_Signal_Processing">Digital Signal Processing</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Electronics_Communications&course=Microprocessors">Microprocessors</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Electronics_Communications&course=Signal_and_Systems">Signals and Systems</a></li>
+					  </ul>
+				     </div> 
+				 </li>
+				 <li>
+				     <div class="branch-header" id="b13">Mechanical</div>
+				     <div class="drawer-course" id="cb13">
+					 <ul>
+					     <li><a href="content.jsp?field=Engineering&branch=Mechanical&course=Computer_Aided_Design">Computer Aided Design</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Mechanical&course=Fluid_Mechanics">Fluid Mechanics</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Mechanical&course=Kinematics_and_Design_of_Machinery">KInematics and Design of Machinery</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Mechanical&course=Manufacturing_Processes">Manufacturing Processes</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Mechanical&course=Material_Science">Material Science</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Mechanical&course=Thermal_Systems_Engineering">Thermal Systems Engineering</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Mechanical&course=Thermodynamics">Thermodynamics</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Mechanical&course=Turbo_Machinery">Turbo Machinery</a></li>
+					 </ul>
+				     </div> 
+				 </li>
+				 <li>
+				     <div class="branch-header" id="b14">Physics</div>
+				     <div class="drawer-course" id="cb14">
+					 <ul>
+					     <li><a href="content.jsp?field=Engineering&branch=Physics&course=Modern_Physics">Modern Physics</a></li>
+					     <li><a href="content.jsp?field=Engineering&branch=Physics&course=Optics">Optics</a></li>
+					  </ul>
+				     </div>
+				 </li>
+			     </ul>
+			</div>
+			<div class="field-header" id="f2">
+			    Medical
+			</div>
+			<div class="drawer-branch" id="bf2">
+			     <ul>
+				 <li>
+				     <div class="branch-header" id="b21">MBBS</div>
+				     <div class="drawer-course" id="cb21">
+					 <ul>
+					     <li><a href="content.jsp?field=Medical&branch=MBBS&course=Anatomy">Anatomy</a></li>
+					     <li><a href="content.jsp?field=Medical&branch=MBBS&course=Biochemistry">Biochemistry</a></li>
+					     <li><a href="content.jsp?field=Medical&branch=MBBS&course=Histology">Histology</a></li>
+					     <li><a href="content.jsp?field=Medical&branch=MBBS&course=Microbiology">Microbiology</a></li>
+					     <li><a href="content.jsp?field=Medical&branch=MBBS&course=Osteology">Osteology</a></li>
+					     <li><a href="content.jsp?field=Medical&branch=MBBS&course=Parasitology">Parasitology</a></li>
+					     <li><a href="content.jsp?field=Medical&branch=MBBS&course=Physiology">Physiology</a></li>
+					 </ul>
+				     </div> 
+				 </li>
+			     </ul>
+			</div>
+		    </div>
+		    <div class="drawer-important-links">
+			<ul>
+			    <li><a href="suggestUs.html"><i class="material-icons">playlist_add</i> Request a book</a></li>
+			    <li><a href="aboutUs.html"><i class="material-icons">info_outline</i> About Us</a></li>
+			</ul>
+		    </div>
+		</div>
+		<div class="otherThanDrawer" id="otherThanDrawer"></div>
+<!--content...........................................................................................................................-->
+	<div id="content">
+	    <!--<div id="formIcon"><i class="material-icons">mode_edit</i></div>-->
+	    <div class='main-content'>
+		    <div class="content-header">
+			<span class='header-1'>Didn't find what you were searching for ? </span></br></br>
+			<span class='header-2'>Request a book. We will try to include that book and notify you when it is available.! </span>
+		    </div>
+		    <form action="suggestUs.jsp" method="POST">
+			<label class="inputHeading" for="email" id="email">Email Id</label>
+			<input class="textInput"  name="email" type="email" required onfocus="moveUp('email');" onblur="moveDown('email');" />
+			<label class="inputHeading" for="bookName" id="bookName">Book Name</label>
+			<input class="textInput"  name="bookName" type="text" required onfocus="moveUp('bookName');" onblur="moveDown('bookName');" />
+			<label class="inputHeading" for="authorName" id="authorName">Author Name</label>
+			<input class="textInput"  name="authorName" type="text" required onfocus="moveUp('authorName');" onblur="moveDown('authorName');" />
+			<label class="inputHeading" for="instituteName" id="instituteName">Name of your Institute</label>
+			<input class="textInput" name="instituteName" type="text" required onfocus="moveUp('instituteName');" onblur="moveDown('instituteName');" /> 
+			<input type="submit" id="submitButton" value="SUBMIT"/>   
+		    </form>
+	    </div>	
+	</div>
+	<div id="overlay">
+	    <div id="error-message"> 
+		   <div>:(</div> 
+		   <span>Oops! Something went wrong. Please try again.!!</span>
+		   <a href="suggestUs.html">OK</a>
+	    </div>
+	    <div id="success-message">
+		    <div>:)</div> 
+		   <span>Your request submitted successfully.!!</span>
+		   <a href="index.html">OK</a>
+	    </div>
+	</div>
+<!--google ads....................................................................................................-->
+
+<!-- request1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:15%;height:280px; position:absolute; right:20px; top:100px; z-index: 100;"
+     data-ad-client="ca-pub-6398520386440493"
+     data-ad-slot="9437972961"></ins>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- request2 -->
+<ins class="adsbygoogle"
+     style="display:block; background-color: transparent;position: absolute; left:20px; top:300px; height: 280px; width:15%;"
+     data-ad-client="ca-pub-6398520386440493"
+     data-ad-slot="5786502562"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!--search results.................................................................................................-->
+		    <div class="search-results">
+			<div class="search-result-area" id="search-result-area">
+			</div>
+		    </div>
+<!--footer.........................................................................................................-->
+		    <footer id="page-footer">
+			<nav id="socialLinks">
+			     <span><a href="https://www.facebook.com/ebookshala" target="_blank"><i class="fa fa-facebook-official"></i> </a></span>
+			    <span><a href="https://plus.google.com/u/0/107490069075788480388" target="_blank"><i class="fa fa-google-plus-square"></i></a></span>
+			     <span><a href="https://twitter.com/ebook_shala" target="_blank"><i class="fa fa-twitter"></i></a></span>
+			</nav>
+			<nav id="importantLinks">
+			    <span><a href="suggestUs.html"><i class="material-icons">playlist_add</i> Request a book</a></span>
+			    <span>|</span>
+<!--			    <span><a><i class="material-icons">file_upload</i> Upload a book</a></span>
+			    <span>|</span>	
+			    <span><a><i class="material-icons">mode_edit</i> Feedback</a></span>
+			    <span>|</span>-->
+			     <span><a href="aboutUs.html"><i class="material-icons">info_outline</i> About Us</a></span>
+			</nav>
+		    </footer>
+    </div>
+    </body>
+</html>
